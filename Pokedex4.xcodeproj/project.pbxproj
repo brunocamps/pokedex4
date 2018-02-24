@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F715B1F82040232F0095F5C9 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715B1F72040232F0095F5C9 /* csv.swift */; };
 		F77003D5203F2BC6002448A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77003D4203F2BC6002448A7 /* AppDelegate.swift */; };
 		F77003D7203F2BC6002448A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77003D6203F2BC6002448A7 /* ViewController.swift */; };
 		F77003DA203F2BC6002448A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77003D8203F2BC6002448A7 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F715B1F72040232F0095F5C9 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		F77003D1203F2BC6002448A7 /* Pokedex4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77003D4203F2BC6002448A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F77003D6203F2BC6002448A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				F7B57BCF203F32B200EF6B2C /* Model */,
 				F77003D4203F2BC6002448A7 /* AppDelegate.swift */,
 				F77003D6203F2BC6002448A7 /* ViewController.swift */,
+				F715B1F72040232F0095F5C9 /* csv.swift */,
 				F77003D8203F2BC6002448A7 /* Main.storyboard */,
 				F77003DB203F2BC6002448A7 /* Assets.xcassets */,
 				F7B57BCD203F311900EF6B2C /* pokemon.csv */,
@@ -166,6 +169,7 @@
 				F77003D7203F2BC6002448A7 /* ViewController.swift in Sources */,
 				F77003D5203F2BC6002448A7 /* AppDelegate.swift in Sources */,
 				F7B57BD1203F32E500EF6B2C /* Pokemon.swift in Sources */,
+				F715B1F82040232F0095F5C9 /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
