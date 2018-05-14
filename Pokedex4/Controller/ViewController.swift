@@ -37,26 +37,26 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         searchBar.returnKeyType = UIReturnKeyType.done
         
         parsePokemnonCSV()
-        initAudio()
+        //initAudio()
         
         
         //How to create an object for a object pokemon
         //let charmender = Pokemon(name: "Charmender", pokedexId: 4)
     }
     
-    func initAudio() {
-        
-        let path = Bundle.main.path(forResource: "music", ofType: "mp3")!
-        
-        do {
-            musicPlayer = try AVAudioPlayer(contentsOf: URL(string: path)!)
-            musicPlayer.prepareToPlay()
-            musicPlayer.numberOfLoops = -1 //it will loop continuously
-            musicPlayer.play()
-        } catch let err as NSError{
-            print(err.debugDescription)
-        }
-    }
+//            func initAudio() {
+//
+//                let path = Bundle.main.path(forResource: "music", ofType: "mp3")!
+//
+//                do {
+//                    musicPlayer = try AVAudioPlayer(contentsOf: URL(string: path)!)
+//                    musicPlayer.prepareToPlay()
+//                    musicPlayer.numberOfLoops = -1 //it will loop continuously
+//                    musicPlayer.play()
+//                } catch let err as NSError{
+//                    print(err.debugDescription)
+//                }
+//            }
     
     func parsePokemnonCSV() {
         

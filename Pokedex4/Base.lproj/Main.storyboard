@@ -12,6 +12,7 @@
     </dependencies>
     <customFonts key="customFonts">
         <array key="AvenirNext.ttc">
+            <string>AvenirNext-DemiBold</string>
             <string>AvenirNext-Regular</string>
         </array>
         <array key="HelveticaNeue.ttc">
@@ -19,9 +20,6 @@
         </array>
         <array key="HelveticaNeueLights.ttc">
             <string>HelveticaNeue-Light</string>
-        </array>
-        <array key="pokemon.ttf">
-            <string>PokemonSolidNormal</string>
         </array>
     </customFonts>
     <scenes>
@@ -36,33 +34,25 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r1U-M0-sGx">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokédex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIJ-Hy-lMF">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ChemBoard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIJ-Hy-lMF">
                                         <rect key="frame" x="85.5" y="8" width="204" height="49"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="204" id="GrA-gZ-ZoH"/>
                                             <constraint firstAttribute="height" constant="49" id="ee4-Yo-4uS"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="35"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="35"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzf-cx-YLi">
-                                        <rect key="frame" x="342" y="30" width="25" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="music"/>
-                                        <connections>
-                                            <action selector="musicBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SZR-Sm-3IX"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.34509803921568627" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.18376743793487549" green="0.020569942891597748" blue="0.34119918942451477" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="DLC-Pj-dRX"/>
                                     <constraint firstAttribute="bottom" secondItem="sIJ-Hy-lMF" secondAttribute="bottom" constant="8" id="W55-1B-3VG"/>
                                     <constraint firstItem="sIJ-Hy-lMF" firstAttribute="centerX" secondItem="r1U-M0-sGx" secondAttribute="centerX" id="zgc-sQ-tan"/>
                                 </constraints>
                             </view>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search Pokemon" translatesAutoresizingMaskIntoConstraints="NO" id="xEE-Pl-y7b">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search Mollecules" translatesAutoresizingMaskIntoConstraints="NO" id="xEE-Pl-y7b">
                                 <rect key="frame" x="0.0" y="65" width="375" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="LkB-rd-dyw"/>
@@ -96,9 +86,9 @@
                                                         <constraint firstAttribute="height" constant="80" id="1ys-VA-VG0"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charmander" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poL-wr-ar2">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charmander" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="poL-wr-ar2">
                                                     <rect key="frame" x="0.0" y="80" width="106" height="25"/>
-                                                    <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.48531113105997054" green="0.058999379160198442" blue="0.53795928565949347" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -364,7 +354,7 @@
         <image name="3" width="120" height="120"/>
         <image name="4" width="120" height="120"/>
         <image name="back" width="100" height="67"/>
-        <image name="bg" width="640" height="960"/>
+        <image name="bg" width="606" height="1136"/>
         <image name="imageView:36w-QY-OtB:image" width="120" height="120">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGVVZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEgcI
@@ -1430,6 +1420,5 @@ ouWk5ablqOWx5bblvOXE5cblyOXK5czl0eXZ90X3R/dM91r3Xvdl92r3d/d694f3jPeU95f3nPek96f3
 ufe898EAAAAAAAACAQAAAAAAAABZAAAAAAAAAAAAAAAAAAD3ww
 </mutableData>
         </image>
-        <image name="music" width="100" height="100"/>
     </resources>
 </document>
